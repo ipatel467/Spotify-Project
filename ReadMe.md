@@ -43,13 +43,23 @@ The first feature we will be looking at today is the Duration feature. Duration 
 </p>
 
 
-pics of dur in milisec song
+<p>
+<img width="762" alt="Screen Shot 2020-12-16 at 11 30 17 AM" src="https://user-images.githubusercontent.com/52756457/102386903-54c7f680-3f95-11eb-8699-0dca9e50831c.png">
+</p>
 
-paragraph
 
-pic of tempo
 
-para graph 
+<p>
+In the histogram above we can see that the distribution looks somewhat normal. We can see that the mean song Duration in Milliseconds is about 200K. This is roughly a 3mins and 20second song. A song that has 300K milliseconds or more is a 5-minute song or longer. Overall this makes sense because most people don't listen to extremely long songs.
+</p>
+
+
+One interesting feature I wanted to take a look at was Tempo. The tempo is the speed or pace of a given piece and derives directly from the average beat duration. In simple words, the tempo is just the speed or pace of the song. Is it a slow singing song, or a fast rap song?
+
+
+<img width="766" alt="Screen Shot 2020-12-16 at 11 30 50 AM" src="https://user-images.githubusercontent.com/52756457/102386815-39f58200-3f95-11eb-9c43-01683ae6f8c1.png">
+
+Looking at the distribution we can see that the median is around 90-100. Overall this is saying that the majority of the songs in this dataset have a slow tempo rather than a fast one. If we look at the tempo of 200 we can see there is a very low frequency. However, all the other tempos after 100 seem to have a similar but slightly varying freuency.
 
 ### Modeling <a name="modeling"></a>
 
@@ -62,15 +72,21 @@ para graph
 
  
 
-<p>Now that we have seen the results of the model, lets see how different features played a role in predicting the happiness score.</p>
+<p>My second best performing model was the Gradient Boosting model. The Gradient Boosting model has a R_Squared of 0.527. This means this model is capturing almost 53% of the data needed to predict a song's popularity. This model performed slightly better than the XGBoost.</p>
 
 
-<p></p>
-<p></p>
+<p>
+<img width="732" alt="Screen Shot 2020-12-16 at 11 48 44 AM" src="https://user-images.githubusercontent.com/52756457/102387227-ba1be780-3f95-11eb-84b4-fd719bc27583.png">
+</p>
 
-<p></p>
+
+<p>Last but not least, below is the code for the AdaBoost model. This was the best performing model in comparison to all the other models. This AdaBoost model gave me a R_squared of 0.612 which once again means this model is gathering 61% of the data needed to predict a song's popularity. </p>
 
 
+
+<p>
+<img width="729" alt="Screen Shot 2020-12-16 at 11 48 25 AM" src="https://user-images.githubusercontent.com/52756457/102387146-a2dcfa00-3f95-11eb-92ff-a00337d8c3de.png">
+</p>
 
 
 
