@@ -88,7 +88,9 @@ Another feature we decided to look into was the "Key" feature. The Key is the es
 ![Screen Shot 2021-01-19 at 10 35 34 AM](https://user-images.githubusercontent.com/52756457/105064890-e5856c80-5a42-11eb-97b1-e896aa967af7.png)
 
 We can see that the Keys with the highest average popularity are 2,3, and 10. But once again I am not satisfied with just looking at the averages. I decided to dig a little deeper and see the total sum by popularity.
-(IMG of chart)
+
+![Screen Shot 2021-01-19 at 10 53 16 AM](https://user-images.githubusercontent.com/52756457/105066572-8de80080-5a44-11eb-84c3-3d494f5d9aee.png)
+
 Once again I am interested to see that Key 1 has the highest popularity sum while key 3 has the lowest popularity sum. We can also see that key 2 has been moved down the ranks in terms of popularity by sum. Key 2 had the 2nd highest mean for popularity, but key 2 has the 2nd lowest popularity sum. Once again this could be due to an imbalance of songs ranging in popularity. We will have to investigate some more to find our solution.
 
 ### Modeling <a name="modeling"></a>
